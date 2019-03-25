@@ -1,0 +1,34 @@
+@mixin font($weight:400, $family: $font-regular, $size:30px, $color: #171717) {
+  font: {
+    weight: $weight;
+    family: $family;
+    size: $size;
+  }
+  color: $color;
+}
+
+@mixin dim($width: initial, $heigh: initial) {
+    width: $width;
+    height: $heigh;
+}
+
+@mixin dim-min($min-width: initial, $min-height: initial) {
+    min-width: $min-width;
+    min-height: $min-height;
+}
+
+@mixin dim-max($max-width: initial, $max-height: initial) {
+    max-width: $max-width;
+    max-height: $max-height;
+}
+
+@mixin border-radius($radius: 0) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin box-shadow($box-shadow: none){
+  -webkit-box-shadow: $box-shadow;
+  box-shadow: $box-shadow;
+}

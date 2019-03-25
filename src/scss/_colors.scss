@@ -1,0 +1,18 @@
+$blueGradient: linear-gradient(to top, #5075e7 0%, #8cadf4 100%);
+$violetGradient: linear-gradient(to top, #9219d7 0%, #c16ef0 100%);
+$pinkGradient: linear-gradient(to top, #fd517e 0%, #fa6f94 100%);
+
+.bg-blue-gradient {
+  background-image: $blueGradient;
+}
+
+.bg-violet-gradient {
+  background-image: $violetGradient;
+}
+
+.bg-pink-gradient {
+  background-image: $pinkGradient;
+}
+
+
+

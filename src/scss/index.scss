@@ -1,0 +1,227 @@
+@import '_variables';
+@import "mixins";
+@import "media";
+@import "_colors";
+@import "parts/_buttons";
+
+/*Автоматический размер логотипа*/
+.logotip {
+  @include dim(100%, auto);
+  @include dim-max(341px);
+}
+
+header {
+  @include font(400, $font-myriad, 85%, #5075e7);
+  /*padding-bottom: 75px;*/
+}
+
+header hr {
+  background-color: #e1e1e1;
+  height: 3px;
+  border: 0;
+}
+
+header nav ul a {
+  @include font(300, $font-regular, 18px, #2c3248);
+}
+
+header nav li {
+  padding: 1px 1px 1px 16px;
+}
+
+.foto{
+  background: url("../img/foto.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 626px;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
+.welcome {
+  @include font(400, $font-regular, 35px, #19152d);
+  padding-top: 50px;
+}
+
+.great {
+  @include font(300, $font-regular, 43px, #5378e8);
+}
+
+.custom {
+  font-size: 21px;
+  color: #19152d;
+  margin-bottom: 18px;
+}
+
+.get_price {
+  background: #ffffff;
+  margin: 0 auto;
+  @include font (100, $font-regular, 30px, #9824da);
+  text-align: center;
+}
+.box-shadow{
+  box-shadow: 2px 3px 8px 0 rgba(185,185,185,0.75);
+  width: 336px;
+  height: 448px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+form.get-price-form select {
+  @include border-radius(50px);
+  border: 1px solid #56a7dd;
+  width: 87%;
+  margin: 0 auto;
+}
+
+form.get-price-form label {
+  width: 87%;
+  margin: 0 auto;
+  display: block;
+  color: #19152d;
+}
+
+footer{
+  background: #30323a;
+  color: #FFFFFF;
+}
+
+footer nav ul a{
+@include font(400, $font-regular, 18px, #ffffff)
+}
+
+footer nav li{
+  padding: 1px 1px 1px 6px;
+}
+
+footer .bottom {
+  background-color: #0a1127;
+}
+
+footer .footer_us{
+  @include font(600, $font-regular, 20px, #ffffff);
+  padding: 25px 0;
+}
+
+footer .text_end{
+  @include font(300, $font-regular, 17px, #ffffff);
+  padding-top: 25px;
+  line-height: 0;
+}
+
+footer .foter_contact{
+  @include font(400, $font-regular, 16px, #ffffff);
+}
+
+footer .bottom .col {
+  padding: 0 15px;
+}
+
+footer .foter_contact img {
+  margin-right: 10px;
+}
+
+footer .information li a{
+  @include font(400, $font-regular, 16px, #ffffff);
+}
+
+footer ul span{
+  color: #8891e3;
+}
+
+#subscribe {
+  display: inline;
+}
+
+#subscribe input[type=text] {
+  border: 1px solid #394050;
+  border-radius: 25px;
+  padding: 0 3.6rem 0 25px;
+  color: #FFFFFF;
+  font-size: 15px;
+  height: 2rem;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  width: 100%;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+
+#subscribe button {
+  background-color: #394050;
+  border: none !important;
+  box-shadow:none !important;
+  height: 2rem;
+  width: 3.5rem;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-left: -3.5rem;
+  @include font(600, $font-regular, 20px, #ffffff);
+  line-height: initial;
+}
+
+.information{
+  list-style: none;
+}
+
+p.oops{
+  @include font(400, $font-regular, 50px, #2c3248);
+}
+
+h1.posts{
+  @include font(600, $font-myriad, 50px, #2c3248);
+}
+
+span.handy{
+  @include font(400, $font-regular, 25px, #2c3248);
+}
+
+.tips{
+  box-shadow: 2px 3px 8px 0 rgba(156,156,156,0.75);
+  margin-bottom: 17px;
+  padding: $blog-padding;
+}
+article.tips img {
+  width: calc(100% + 2 * #{$blog-padding});
+  margin-left: -$blog-padding;
+  height: auto;
+}
+
+div.cal-com-share div {
+  @include font(400, $font-regular, 20px, #2c3248);
+  padding-right: 20px;
+  display: inline;
+}
+
+.edu-buttons {
+  margin: 20px 0;
+}
+
+.choose{
+  @include font(700, $font-regular, 39px, #5175e7);
+}
+
+ul.papers_orig {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.papers_orig li {
+  @include font(300, $font-regular, 18px, #2c3248);
+  margin: 0;
+  padding: 0 0 15px 20px;
+}
+
+ul.papers_orig li:before {
+  content: '\f00c';
+  font-family: FontAwesome;
+  color: #6a8ded;
+  position: absolute;
+  left: calc(10px + #{$blog-padding});
+}

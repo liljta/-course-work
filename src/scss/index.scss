@@ -263,3 +263,23 @@ li.page-item{
 a.page-link{
   @include font(400, $font-myriad, 20px, #2c3248);
 }
+p.since_buyi{
+  @include font(300, $font-regular, 18px, #2c3248);
+}
+p.great_writings{
+  @include font(400, $font-regular, 24px, #567be8);
+}
+
+ul{
+  list-style: none;
+}
+
+ul.papers li::before{
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+

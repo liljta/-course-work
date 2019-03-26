@@ -365,4 +365,27 @@ a.page-link {
   font-size: 20px;
   color: #2c3248; }
 
+p.since_buyi {
+  font-weight: 300;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 18px;
+  color: #2c3248; }
+
+p.great_writings {
+  font-weight: 400;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 24px;
+  color: #567be8; }
+
+ul {
+  list-style: none; }
+
+ul.papers li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em; }
+
 

@@ -320,4 +320,49 @@ ul.papers_orig li:before {
   position: absolute;
   left: calc(10px + 20px); }
 
+.discount {
+  font-weight: 600;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 70px;
+  color: #ff4475;
+  line-height: 70px; }
+
+.left-arrow {
+  position: relative; }
+
+.left-arrow:before {
+  content: url("../img/right.svg");
+  position: absolute;
+  left: -15px;
+  top: calc(50% - 19px); }
+
+span.for_more {
+  font-weight: 400;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 24px;
+  color: #2c3248; }
+
+p.resent-posts {
+  font-weight: 700;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 40px;
+  color: #567be8; }
+
+p.post {
+  font-weight: 400;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  color: #2c3248; }
+
+li.page-item {
+  box-shadow: 2px 4px 5px 0px rgba(164, 164, 164, 0.75);
+  background-color: #ffffff;
+  border: 1.0px solid #dadada; }
+
+a.page-link {
+  font-weight: 400;
+  font-family: "Myriad", sans-serif;
+  font-size: 20px;
+  color: #2c3248; }
+
 

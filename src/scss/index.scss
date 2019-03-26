@@ -225,3 +225,41 @@ ul.papers_orig li:before {
   position: absolute;
   left: calc(10px + #{$blog-padding});
 }
+
+.discount{
+  @include font (600, $font-regular, 70px, #ff4475);
+  line-height: 70px;
+}
+
+.left-arrow {
+  position: relative;
+}
+
+.left-arrow:before{
+  content: url("../img/right.svg");
+  position: absolute;
+  left: -15px;
+  top: calc(50% - 19px);
+}
+
+span.for_more{
+  @include font(400, $font-regular, 24px, #2c3248);
+}
+
+p.resent-posts{
+  @include font(700, $font-regular, 40px, #567be8);
+}
+
+p.post{
+  @include font(400, $font-regular, 16px, #2c3248);
+}
+
+li.page-item{
+  box-shadow: 2px 4px 5px 0px rgba(164,164,164,0.75);
+  background-color: #ffffff;
+  border: 1.0px solid #dadada;
+}
+
+a.page-link{
+  @include font(400, $font-myriad, 20px, #2c3248);
+}

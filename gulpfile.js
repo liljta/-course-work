@@ -19,25 +19,32 @@ var config = {
     }
 };
 
-gulp.task('html:build', function () {
+function html() {
     gulp.src(config.path.html)
         .pipe(rigger())
         .pipe(gulp.dest(config.output.htmlPath));
-});
+}
 
-gulp.task('js:build', function () {
+function js() {
     gulp.src(config.path.js)
         .pipe(rigger())
         .pipe(concat(config.output.jsName))
         .pipe(gulp.dest(config.output.jsPath));
-});
+}
 
-gulp.task('scss', function() {
+
+function scss() {
     return gulp.src(config.path.scss)
         .pipe(sass())
         //.pipe(cleanCss())
         .pipe(concat(config.output.cssName))
         .pipe(gulp.dest(config.output.cssPath));
-});
+}
 
-gulp.task('default', ['scss', 'html:build', 'js:build']);
+function defaultTask(cb) {
+    scss();
+    html();
+    js();
+    cb();
+}
+exports.default = defaultTask

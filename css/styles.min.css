@@ -388,4 +388,124 @@ ul.papers li::before {
   width: 1em;
   margin-left: -1em; }
 
+ul.papers li {
+  font-weight: 400;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 18px;
+  color: #2c3248; }
+
+p.text_for {
+  font-weight: 300;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 18px;
+  color: #2c3248; }
+
+ol li {
+  font-weight: 400;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 18px;
+  color: #2c3248; }
+
+.table {
+  box-shadow: 2px 4px 5px 0 rgba(187, 187, 187, 0.75);
+  background-color: #ffffff;
+  border: 1.0px solid #f8f8f8; }
+
+th.prices {
+  font-weight: 400;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 30px;
+  color: #4b434f; }
+
+th.prices .nav-link.active {
+  font-weight: 600;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 20px;
+  color: #4b434f; }
+
+li.divider {
+  position: relative; }
+
+li.divider::before {
+  content: " ";
+  border: 1px solid #cdcdcd;
+  width: 1px;
+  height: 100%;
+  list-style: none;
+  color: transparent;
+  position: absolute; }
+
+th ul.currency {
+  font-weight: 700;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 20px;
+  color: #4b434f; }
+
+tr.course_table {
+  font-weight: 400;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  color: #4b434f; }
+
+.sony {
+  background-color: #ffffff;
+  border: 1.0px solid #c2c2c2;
+  height: 30px;
+  width: 360px;
+  border-radius: 15px; }
+
+p.faq {
+  font-weight: 300;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 24px;
+  color: #2c3248; }
+
+span.will {
+  font-weight: 600;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 20px;
+  color: #2c3248; }
+
+.juel {
+  font-weight: 700;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 20px;
+  color: #4e4e4e; }
+
+p.all {
+  font-weight: 400;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 18px;
+  color: #4e4e4e; }
+
+p.reply {
+  font-weight: 400;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 14px;
+  color: #575757; }
+
+span.continue {
+  font-weight: 400;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 18px;
+  color: #da3e3c; }
+
+.message {
+  border: 1.0px solid #4e4751;
+  border-radius: 15px;
+  max-width: 100%;
+  width: 100%;
+  height: 100px; }
+
+.form-controlName input {
+  border: 1.0px solid #4e4751;
+  border-radius: 25px; }
+
+.card {
+  border: 0; }
+
+.card:before {
+  content: '';
+  border: 4px dotted blue; }
+
 

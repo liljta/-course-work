@@ -283,3 +283,99 @@ ul.papers li::before{
   margin-left: -1em;
 }
 
+ul.papers li{
+  @include font(400, $font-regular, 18px, #2c3248);
+}
+
+p.text_for{
+  @include font(300, $font-regular, 18px, #2c3248);
+}
+
+ol li{
+  @include font(400, $font-regular, 18px, #2c3248);
+}
+
+.table{
+  box-shadow: 2px 4px 5px 0 rgba(187,187,187,0.75);
+  background-color: #ffffff;
+  border: 1.0px solid #f8f8f8;
+}
+th.prices{
+  @include font(400, $font-regular, 30px, #4b434f)
+}
+
+th.prices .nav-link.active{
+  @include font(600, $font-regular, 20px, #4b434f)
+}
+
+li.divider {
+  position: relative;
+}
+li.divider::before{
+  content: " ";
+  border: 1px solid #cdcdcd;
+  width: 1px;
+  height: 100%;
+  list-style: none;
+  color: transparent;
+  position: absolute;
+}
+
+th ul.currency {
+  @include font(700, $font-regular, 20px, #4b434f);
+}
+tr.course_table{
+  @include font(400, $font-regular,16px, #4b434f);
+}
+
+.sony{
+  background-color: #ffffff;
+  border: 1.0px solid #c2c2c2;
+  height: 30px;
+  width: 360px;
+  border-radius: 15px;
+}
+
+p.faq{
+  @include font(300, $font-regular,24px,#2c3248);
+}
+
+span.will{
+  @include font(600, $font-regular, 20px, #2c3248);
+}
+
+.juel{
+  @include font(700, $font-regular, 20px, #4e4e4e);
+}
+
+p.all{
+  @include font(400, $font-regular, 18px, #4e4e4e);
+}
+
+p.reply{
+  @include font(400,$font-regular, 14px, #575757);
+}
+span.continue{
+  @include font(400, $font-regular, 18px, #da3e3c);
+}
+
+.message{
+  border: 1.0px solid #4e4751;
+ border-radius: 15px;
+  max-width: 100%;
+  width: 100%;
+  height: 100px;
+}
+.form-controlName input{
+  border: 1.0px solid #4e4751;
+  border-radius: 25px;
+}
+
+.card {
+  border: 0;
+}
+
+.card:before {
+  content: '';
+  border: 4px dotted blue;
+}

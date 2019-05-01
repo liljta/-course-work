@@ -44,7 +44,14 @@
   width: 203px;
   height: 53px;
   background-image: linear-gradient(to top, #9219d7 0%, #c16ef0 100%);
-  margin: 40px 15px; }
+  margin: 40px 15px;
+  font-weight: 400;
+  font-family: "Myriad", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px; }
 
 .btn-read-more {
   width: 190px;
@@ -501,11 +508,63 @@ span.continue {
   border: 1.0px solid #4e4751;
   border-radius: 25px; }
 
-.card {
+.disser {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.disser select {
+  height: 30px;
+  border: 1px solid #c2c2c2;
+  background-color: #ffffff;
+  border-radius: 15px; }
+
+#type {
+  width: 30% !important; }
+
+#num {
+  width: 15% !important; }
+
+#accordionFaq {
+  margin-bottom: 20px; }
+
+#accordionFaq .card {
   border: 0; }
 
-.card:before {
-  content: '';
-  border: 4px dotted blue; }
+#accordionFaq .card-body {
+  padding-left: 60px;
+  position: relative; }
+
+#accordionFaq .card-body:before {
+  content: ' ';
+  height: calc(100% - 2.5rem);
+  width: 1px;
+  position: absolute;
+  border-left: 4px dotted #567be8;
+  left: 5px;
+  top: 1.25rem; }
+
+#accordionFaq h5 {
+  padding: 10px 0 10px 60px;
+  cursor: pointer; }
+
+#accordionFaq h5:before {
+  position: absolute;
+  content: '\f075';
+  font-family: FontAwesome;
+  font-size: 25px;
+  left: 0; }
+
+#accordionFaq h5.open:before {
+  color: #567be8; }
+
+#accordionFaq h5:after {
+  position: absolute;
+  content: '\f128';
+  color: #ffffff;
+  font-family: FontAwesome;
+  font-size: 12px;
+  left: 8px;
+  top: 16px; }
 
 

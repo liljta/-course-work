@@ -29,6 +29,8 @@
   @include dim(203px, 53px);
   background-image: $violetGradient;
   margin: 40px 15px;
+  @include font(400, $font-myriad, 20px, #ffffff);
+  @include border-radius(16px);
 }
 
 .btn-read-more{

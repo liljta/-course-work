@@ -371,11 +371,74 @@ span.continue{
   border-radius: 25px;
 }
 
-.card {
+
+.disser {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.disser select{
+  height: 30px;
+  border: 1px solid #c2c2c2;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+#type {
+  width: 30% !important;
+}
+
+#num {
+  width: 15% !important;
+}
+
+#accordionFaq {
+  margin-bottom: 20px;
+}
+
+#accordionFaq .card {
   border: 0;
 }
 
-.card:before {
-  content: '';
-  border: 4px dotted blue;
+#accordionFaq .card-body {
+  padding-left: 60px;
+  position: relative;
+}
+
+#accordionFaq .card-body:before {
+  content: ' ';
+  height: calc(100% - 2.5rem);
+  width: 1px;
+  position: absolute;
+  border-left: 4px dotted #567be8;
+  left: 5px;
+  top: 1.25rem;
+}
+
+#accordionFaq h5 {
+  padding: 10px 0 10px 60px;
+  cursor: pointer;
+}
+
+#accordionFaq h5:before {
+  position: absolute;
+  content: '\f075';
+  font-family: FontAwesome;
+  font-size: 25px;
+  left: 0;
+}
+
+#accordionFaq h5.open:before {
+  color: #567be8;
+}
+
+#accordionFaq h5:after {
+  position: absolute;
+  content: '\f128';
+  color: #ffffff;
+  font-family: FontAwesome;
+  font-size: 12px;
+  left: 8px;
+  top: 16px;
 }

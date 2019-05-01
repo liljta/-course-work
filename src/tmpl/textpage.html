@@ -85,9 +85,19 @@ guarantees.<br /><br />
   </thead>
   <tbody>
      <tr>
-       <th colspan="4">Type of document:</th>
-      <th>
-
+       <th colspan="4">
+       <form class="disser form-inline">
+       <label for="type">Type of document:</label>
+       <select class="form-control" id="type">
+         <option>Dissertation</option>
+       </select>
+       <label for="num">Number of pages:</label>
+       <select class="form-control" id="num">
+         <option value="1">1</option>
+         <option value="2" selected>2</option>
+         <option value="3">3</option>
+       </select>
+             </form>
 </th>
      </tr>
    <tr class="course_table">
@@ -144,48 +154,86 @@ departments and often plagiarize their papers. The opposite is true when student
 academic papers from Great-Writings.com.</p><br />
 <p class="faq">FAQ questions</p><br />
 
-<i class="fa fa-comment-o" aria-hidden="true"></i>
-
 <div class="accordion" id="accordionFaq">
-  <div class="card">
-    <div id="headingOne">
-      <h5 class="mb-0">
-        <a  data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Who will create my custom essay?
-        </a>
-      </h5>
-    </div>
+    <div class="card">
+        <div id="headingOne">
+            <h5 class="mb-0 open">
+                <a  data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Who will create my custom essay?
+                </a>
+            </h5>
+        </div>
 
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionFaq">
-      <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionFaq">
+            <div class="card-body">
+                Our professional team consists of well-educated writers that hold different academic degrees, varying from Master's to Ph.D. This allows Great-Writings.com to choose individually a writer who will cope with the requirements writing your particular essay.
+            </div>
+        </div>
     </div>
-  </div>
+    <div class="card">
+        <div id="headingTwo">
+            <h5 class="mb-0">
+                <a  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                    Can I work with a preferred writer?
+                </a>
+            </h5>
+        </div>
+
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionFaq">
+            <div class="card-body">
+                Our professional team consists of well-educated writers that hold different academic degrees, varying from Master's to Ph.D. This allows Great-Writings.com to choose individually a writer who will cope with the requirements writing your particular essay.
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div id="headingThree">
+            <h5 class="mb-0">
+                <a  data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                    Can I talk to the writer who will be writing my paper?
+                </a>
+            </h5>
+        </div>
+
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionFaq">
+            <div class="card-body">
+                Our professional team consists of well-educated writers that hold different academic degrees, varying from Master's to Ph.D. This allows Great-Writings.com to choose individually a writer who will cope with the requirements writing your particular essay.
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div id="headingFour">
+            <h5 class="mb-0">
+                <a  data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                    Will my ordered paper be done on time?
+                </a>
+            </h5>
+        </div>
+
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionFaq">
+            <div class="card-body">
+                Our professional team consists of well-educated writers that hold different academic degrees, varying from Master's to Ph.D. This allows Great-Writings.com to choose individually a writer who will cope with the requirements writing your particular essay.
+            </div>
+        </div>
+    </div>
 </div>
-
-
-
 <div class="row">
-<div class="col-6">
+<div class="col-md-6 col-12">
 <form class="form-controlName">
       <textarea class="message" placeholder="Message"></textarea>
    <div class="form-row">
      <div class="col-6">
        <input type="text" class="form-control" placeholder="Name">
      </div>
-     <div class="col">
+     <div class="col-6">
        <input type="text" class="form-control" placeholder="Email">
      </div>
+     <div class="col-lg-12 text-center">
+     <button class="btn-order-custom-paper d-xl-none">Leave a message</button>
+</div>
     </div>
 </form>
-
-
-
-
 </div>
-
-<div class="col-6">
+<div class="col-md-6 col-12">
 <p class="juel">Juels</p>
 <p class="all">Online writing company that prepares absolutely all...</p>
 <p class="reply">Edit Reply  Delete | November 10, 2016 at 7:55 am</p>
@@ -196,7 +244,13 @@ academic papers from Great-Writings.com.</p><br />
  <p class="juel">Jack</p>
  <p class="all">Vivamus malesuada, est eget condimentum cursus, tellus justo facilisis dui, non semper</p>
  <p class="reply">Edit Reply  Delete | November 10, 2016 at 7:55 am</p>
-
+</div>
+<div class="col-lg-12 text-center">
+<button class="btn-read-more-info d-xl-none">More comments</button>
+</div>
+<div class="col-lg-12 text-center">
+<button class="btn-read-more-info d-none d-xl-block">Read more info</button>
+<button class="btn-order-custom-paper d-none d-xl-block">Odrer custom paper</button>
 </div>
 </div>
         </div>

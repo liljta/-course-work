@@ -502,7 +502,8 @@ span.continue {
   border-radius: 15px;
   max-width: 100%;
   width: 100%;
-  height: 100px; }
+  height: 100px;
+  margin-bottom: 20px; }
 
 .form-controlName input {
   border: 1.0px solid #4e4751;
@@ -566,5 +567,87 @@ span.continue {
   font-size: 12px;
   left: 8px;
   top: 16px; }
+
+h1.order {
+  font-weight: 600;
+  font-family: "Myriad", sans-serif;
+  font-size: 50px;
+  color: #2c3248;
+  text-transform: uppercase; }
+
+.form-section {
+  box-shadow: 0 5px 5px rgba(187, 187, 187, 0.75);
+  border: 1px solid #f8f8f8;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  /*display: flex;
+  justify-content: center;*/ }
+
+.informationPersonal {
+  font-weight: 700;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 25px;
+  color: #4b434f; }
+
+.informationPersonal label {
+  font-weight: 400;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 18px;
+  color: #4b434f; }
+
+.informationPersonal input, .informationPersonal select {
+  background-color: #ffffff;
+  border: 1.0px solid #b7b7b7 !important;
+  border-radius: 25px; }
+
+.informationPersonal select {
+  width: 80%;
+  -webkit-appearance: menulist-button; }
+
+.informationPersonal input.valid {
+  border-color: #00a651 !important; }
+
+.informationPersonal input.invalid {
+  border-color: #ff0000 !important; }
+
+.informationPersonal img {
+  margin-left: 15px; }
+
+.should {
+  font-weight: 300;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 18px;
+  color: #4b434f; }
+
+.area-code {
+  font-weight: 600;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 18px;
+  color: #4b434f; }
+
+label.has-question:after {
+  content: url("../img/question.png");
+  margin-left: 15px;
+  left: calc(100% - 20px - 24px);
+  position: absolute; }
+
+.informationPersonal label {
+  padding-right: 15px; }
+
+.informationPersonal label.has-question {
+  padding-right: 49px; }
+
+#cost {
+  font-weight: 900;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  color: #e7861f;
+  text-transform: uppercase; }
+
+.summary {
+  font-weight: 600;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 18px;
+  color: #4b434f; }
 
 

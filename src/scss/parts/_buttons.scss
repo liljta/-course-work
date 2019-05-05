@@ -63,3 +63,12 @@
   border-color: #ff4475;
   color: #ff4475;
 }
+
+.btn-buy-now{
+  background-color: #87a8f3;
+  @include font(400, $font-regular, 14px, #ffffff);
+  width: 99px;
+  height: 31px;
+  border-radius: 15px;
+}
+

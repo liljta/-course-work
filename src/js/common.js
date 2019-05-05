@@ -14,4 +14,9 @@ var initBrowseButton = function () {
 
 window.onload = function() {
     initBrowseButton();
+    $('.nav.nav-tabs.nav-order a').on('click', function (e) {
+        e.preventDefault();
+        $(this).tab('show');
+    });
 };
+

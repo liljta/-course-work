@@ -458,6 +458,8 @@ span.continue{
 h1.order{
   @include font(600, $font-myriad, 50px, #2c3248);
   text-transform: uppercase;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .form-section{
@@ -612,3 +614,134 @@ label.has-question::after {
   @include font(700, $font-regular, 15px,  #e7861f);
   line-height: 18px;
 }
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
+  @include font(400, $font-regular, 20px, #ff4475);
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  background-color: #f8f8f8;
+  color: #567be8;
+}
+
+.processing{
+  @include font(400, $font-regular, 30px, #b85dec);
+}
+
+.date_order{
+  @include font(400, $font-regular, 15px, #2c3248);
+}
+
+.date_order th {
+  white-space: nowrap;
+}
+
+.payments{
+  @include font(400, $font-regular, 14px, #2c3248);
+}
+
+.form-group {
+  margin: 0;
+  padding: 1rem;
+}
+
+.form-group label {
+  text-align: right;
+}
+
+.form-group.row:nth-child(even) {
+  background-color: #fbfbfb;
+}
+
+.completed {
+  color: #5175e7;
+  font-family: "Proxima Nova";
+  font-size: 20px;
+  font-weight: 300;
+
+  box-shadow: 2px 4px 5px 0 rgba(187,187,187,0.75);
+  border: 1.0px solid #f8f8f8;
+  min-height: 200px;
+}
+
+.fdsfdd{
+  @include font(400, $font-regular, 30px, #b85dec);
+}
+
+.price{
+  @include font(500, $font-regular,20px, #2c3248);
+}
+
+.usd{
+  @include font(600, $font-regular, 20px, #ff4475);
+}
+
+.order-string span {
+  margin-right: 15px;
+}
+
+hr.blue{
+  height: 1px;
+  background-color: #5175e7;
+}
+ul.order-details{
+  @include font(400, $font-regular, 15px, #567be8);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 36px;
+}
+ul.order-details li{
+  display: inline;
+  border-left: 1px solid #567be8;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+ul.order-details li:first-child {
+  border: none;
+  padding-left: 0;
+}
+
+.order-table tr {
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.order-table {
+  @include font(300, $font-regular, 20px, #2c3248);
+  box-shadow: none;
+  border: none;
+}
+
+ td span.extend{
+  color: #ff4475;
+}
+
+ .order-tab {
+   box-shadow: 2px 4px 5px 0 rgba(187, 187, 187, 0.75);
+   padding: 0 15px 50px 15px;
+ }
+ .tab-pane {
+   margin-bottom: 20px;
+ }
+
+ .standard{
+   box-shadow: 0 5px 5px rgba(187, 187, 187, 0.75);
+   border: 1px solid #f8f8f8;
+   padding: 0 15px;
+   margin-bottom: 20px;
+ }
+
+ .author{
+   @include font(700, $font-regular, 40px, #5175e7);
+ }
+
+ .status{
+   @include font(400, $font-regular, 18px, #2c3248);
+   line-height: 30px;
+ }
+
+ .profile{
+   @include font(400, $font-regular, 18px, #2c3248);
+   line-height: 40px;
+ }

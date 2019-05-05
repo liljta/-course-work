@@ -86,6 +86,16 @@
   border-color: #ff4475;
   color: #ff4475; }
 
+.btn-buy-now {
+  background-color: #87a8f3;
+  font-weight: 400;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  width: 99px;
+  height: 31px;
+  border-radius: 15px; }
+
 /*Автоматический размер логотипа*/
 .logotip {
   width: 100%;
@@ -585,7 +595,9 @@ h1.order {
   font-family: "Myriad", sans-serif;
   font-size: 50px;
   color: #2c3248;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  padding-top: 25px;
+  padding-bottom: 25px; }
 
 .form-section {
   box-shadow: 0 5px 5px rgba(187, 187, 187, 0.75);
@@ -754,5 +766,147 @@ label.has-question::after {
   font-size: 15px;
   color: #e7861f;
   line-height: 18px; }
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
+  font-weight: 400;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 20px;
+  color: #ff4475; }
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  background-color: #f8f8f8;
+  color: #567be8; }
+
+.processing {
+  font-weight: 400;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 30px;
+  color: #b85dec; }
+
+.date_order {
+  font-weight: 400;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 15px;
+  color: #2c3248; }
+
+.date_order th {
+  white-space: nowrap; }
+
+.payments {
+  font-weight: 400;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 14px;
+  color: #2c3248; }
+
+.form-group {
+  margin: 0;
+  padding: 1rem; }
+
+.form-group label {
+  text-align: right; }
+
+.form-group.row:nth-child(even) {
+  background-color: #fbfbfb; }
+
+.completed {
+  color: #5175e7;
+  font-family: "Proxima Nova";
+  font-size: 20px;
+  font-weight: 300;
+  box-shadow: 2px 4px 5px 0 rgba(187, 187, 187, 0.75);
+  border: 1.0px solid #f8f8f8;
+  min-height: 200px; }
+
+.fdsfdd {
+  font-weight: 400;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 30px;
+  color: #b85dec; }
+
+.price {
+  font-weight: 500;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 20px;
+  color: #2c3248; }
+
+.usd {
+  font-weight: 600;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 20px;
+  color: #ff4475; }
+
+.order-string span {
+  margin-right: 15px; }
+
+hr.blue {
+  height: 1px;
+  background-color: #5175e7; }
+
+ul.order-details {
+  font-weight: 400;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 15px;
+  color: #567be8;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 36px; }
+
+ul.order-details li {
+  display: inline;
+  border-left: 1px solid #567be8;
+  padding-left: 8px;
+  padding-right: 8px; }
+
+ul.order-details li:first-child {
+  border: none;
+  padding-left: 0; }
+
+.order-table tr {
+  border-bottom: 1px solid #e1e1e1; }
+
+.order-table {
+  font-weight: 300;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 20px;
+  color: #2c3248;
+  box-shadow: none;
+  border: none; }
+
+td span.extend {
+  color: #ff4475; }
+
+.order-tab {
+  box-shadow: 2px 4px 5px 0 rgba(187, 187, 187, 0.75);
+  padding: 0 15px 50px 15px; }
+
+.tab-pane {
+  margin-bottom: 20px; }
+
+.standard {
+  box-shadow: 0 5px 5px rgba(187, 187, 187, 0.75);
+  border: 1px solid #f8f8f8;
+  padding: 0 15px;
+  margin-bottom: 20px; }
+
+.author {
+  font-weight: 700;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 40px;
+  color: #5175e7; }
+
+.status {
+  font-weight: 400;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 18px;
+  color: #2c3248;
+  line-height: 30px; }
+
+.profile {
+  font-weight: 400;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 18px;
+  color: #2c3248;
+  line-height: 40px; }
 
 

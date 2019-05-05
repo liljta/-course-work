@@ -27,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tmpl/my_order.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="160" column="85" selection-start-line="160" selection-start-column="85" selection-end-line="160" selection-end-column="85" />
+            <state relative-caret-position="286">
+              <caret line="159" column="65" selection-start-line="159" selection-start-column="65" selection-end-line="159" selection-end-column="65" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
@@ -40,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scss/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="728" column="18" selection-start-line="728" selection-start-column="18" selection-end-line="728" selection-end-column="18" />
+            <state relative-caret-position="189">
+              <caret line="461" column="23" selection-start-line="461" selection-start-column="23" selection-end-line="461" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -88,6 +88,8 @@
       <find>compl</find>
       <find />
       <find>table</find>
+      <find>orders</find>
+      <find>order</find>
     </findStrings>
     <replaceStrings>
       <replace>col-md-7</replace>
@@ -126,8 +128,8 @@
         <option value="$PROJECT_DIR$/src/js/common.js" />
         <option value="$PROJECT_DIR$/css/bootstrap-extended.min.css" />
         <option value="$PROJECT_DIR$/src/tmpl/head.html" />
-        <option value="$PROJECT_DIR$/src/scss/index.scss" />
         <option value="$PROJECT_DIR$/src/tmpl/my_order.html" />
+        <option value="$PROJECT_DIR$/src/scss/index.scss" />
       </list>
     </option>
   </component>
@@ -261,12 +263,12 @@
       <workItem from="1556566197471" duration="6895000" />
       <workItem from="1556722633128" duration="4078000" />
       <workItem from="1556727601949" duration="627000" />
-      <workItem from="1556728451895" duration="67572000" />
+      <workItem from="1556728451895" duration="67962000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202087000" />
+    <option name="totallyTimeSpent" value="202477000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1035" extended-state="6" />
@@ -534,21 +536,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="728" column="18" selection-start-line="728" selection-start-column="18" selection-end-line="728" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tmpl/my_order.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="160" column="85" selection-start-line="160" selection-start-column="85" selection-end-line="160" selection-end-column="85" />
+        <state relative-caret-position="286">
+          <caret line="159" column="65" selection-start-line="159" selection-start-column="65" selection-end-line="159" selection-end-column="65" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="461" column="23" selection-start-line="461" selection-start-column="23" selection-end-line="461" selection-end-column="23" />
         </state>
       </provider>
     </entry>

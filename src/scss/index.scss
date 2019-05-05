@@ -203,7 +203,8 @@ div.cal-com-share div {
 }
 
 .choose{
-  @include font(700, $font-regular, 39px, #5175e7);
+  @include font(700, $font-regular, 30px, #5175e7);
+  text-transform: uppercase;
 }
 
 ul.papers_orig {
@@ -227,12 +228,18 @@ ul.papers_orig li:before {
 }
 
 .discount{
-  @include font (600, $font-regular, 70px, #ff4475);
+  @include font (600, $font-regular, 60px, #ff4475);
+  line-height: 70px;
+}
+
+.discount_off{
+  @include font (600, $font-regular, 60px, #b85dec);
   line-height: 70px;
 }
 
 .left-arrow {
   position: relative;
+  padding-top: 20px;
 }
 
 .left-arrow:before{
@@ -240,6 +247,10 @@ ul.papers_orig li:before {
   position: absolute;
   left: -15px;
   top: calc(50% - 19px);
+}
+
+.left-arrow.pink:before{
+  content: url("../img/right_pink.svg");
 }
 
 span.for_more{
@@ -479,10 +490,30 @@ h1.order{
 
 .informationPersonal input.valid{
   border-color: #00a651 !important;
+  width: calc(100% - 45px);
+  display: inline-block;
+}
+
+.informationPersonal span.valid::after {
+  content: '\f00c';
+  @include font(400, FontAwesome, 20px, #00a651);
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.informationPersonal span.invalid::after {
+  content: '\f00d';
+  @include font(400, FontAwesome, 20px, #ff0000);
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 5px;
 }
 
 .informationPersonal input.invalid{
   border-color: #ff0000 !important;
+  width: calc(100% - 45px);
+  display: inline-block;
 }
 
 .informationPersonal img {
@@ -497,7 +528,7 @@ h1.order{
   @include font(600, $font-regular, 18px, #4b434f);
 }
 
-label.has-question:after {
+label.has-question::after {
   content: url("../img/question.png");
   margin-left: 15px;
   left: calc(100% - 20px - 24px);
@@ -521,4 +552,63 @@ label.has-question:after {
 
 .summary{
   @include font(600,$font-regular, 18px, #4b434f);
+}
+
+.provide{
+  @include font(400, $font-regular, 14px, 4b434f !important);
+}
+
+.browse {
+  border: 1px solid #b7b7b7;
+  background-color: #ffffff;
+  background-image: linear-gradient(to top, #ebebeb 0%, #ffffff 100%);
+  border-radius: 25px;
+  width: 164px;
+  height: 33px;
+  @include font(300, $font-regular, 14px, #4b434f);
+  line-height: initial !important;
+}
+
+.writers{
+  @include font(400, $font-regular, 14px, #4b434f !important);
+}
+
+#discount{
+  display: inline;
+  width: auto;
+}
+
+.order_will{
+  @include font(400, $font-regular, 14px, #4b434f);
+  line-height: 1.2;
+}
+
+.accept{
+  @include font(400, $font-regular, 15px,#4b434f !important);
+  line-height: 18px;
+}
+
+.terms{
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: blink;
+  line-height: 1.2;
+}
+
+.form-section {
+  border-bottom: none !important;
+}
+
+.form-section.bordered .col-md-7, .form-section.bordered .col-7 {
+  border-left: 1px solid #f8f8f8;
+}
+
+.grand{
+  @include font(700, $font-regular, 15px, #4b434f);
+  line-height: 18px;
+}
+
+.total_price{
+  @include font(700, $font-regular, 15px,  #e7861f);
+  line-height: 18px;
 }

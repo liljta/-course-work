@@ -2,20 +2,22 @@
     <h1 class="order text-center">Order Now</h1>
     <div class="row">
         <div class="col-8">
-            <div class="informationPersonal text-center form-section">
-                <form class="form form-horizontal striped-rows">
+            <form class="form form-horizontal striped-rows">
+                <div class="informationPersonal form-section">
                     <div class="form-body">
-                        <h4 class="informationPersonal">Personal information</h4>
+                        <h4 class="informationPersonal text-center">Personal information</h4>
                         <div class="form-group row">
                             <label class="col-md-5 label-control" for="projectinput1">First Name</label>
                             <div class="col-md-7">
                                 <input type="text" id="projectinput1" class="form-control valid">
+                                <span class="valid"></span>
                             </div>
                         </div>
                         <div class="form-group row">
                             <label class="col-md-5 label-control" for="projectinput2">Last Name</label>
                             <div class="col-md-7">
                                 <input type="text" id="projectinput2" class="form-control invalid">
+                                <span class="invalid"></span>
                             </div>
                         </div>
 
@@ -25,7 +27,7 @@
                                 <input type="text" id="projectinput3" class="form-control">
                             </div>
                         </div>
-                        <div class="form-group row last">
+                        <div class="form-group row">
                             <label class="col-md-5 label-control" for="country">Country code</label>
                             <div class="col-md-7">
                                 <select class="form-control" id="country">
@@ -35,7 +37,7 @@
                             </div>
                         </div>
 
-                        <div class="form-group row last">
+                        <div class="form-group row">
                             <label class="col-md-5 label-control has-question" for="projectinput4">Phone</label>
                             <div class="col-md-7">
                                 <input type="text" id="projectinput4" class="form-control">
@@ -48,13 +50,11 @@
                             </div>
                         </div>
                     </div>
-                </form>
-            </div>
-            <div class="informationPersonal text-center form-section">
-                <form class="form form-horizontal striped-rows form-bordered">
+                </div>
+                <div class="informationPersonal form-section bordered">
                     <div class="form-body">
                         <h4 class="informationPersonal text-center">Paper requirements</h4>
-                        <div class="form-group row last">
+                        <div class="form-group row">
                             <label class="col-md-5 label-control has-question" for="subject">Subject</label>
                             <div class="col-md-7">
                                 <select class="form-control" id="subject">
@@ -63,13 +63,13 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="form-group row last">
+                        <div class="form-group row">
                             <label class="col-md-5 label-control has-question" for="paper">Title of your paper</label>
                             <div class="col-md-7">
                                 <input type="text" id="paper" class="form-control">
                             </div>
                         </div>
-                        <div class="form-group row last">
+                        <div class="form-group row">
                             <label class="col-md-5 label-control" for="assignment">Type of assignment</label>
                             <div class="col-md-7">
                                 <select class="form-control" id="assignment">
@@ -78,7 +78,7 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="form-group row last">
+                        <div class="form-group row">
                             <label class="col-md-5 label-control has-question" for="time">Timeframes</label>
                             <div class="col-md-7">
                                 <select class="form-control" id="time">
@@ -87,7 +87,7 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="form-group row last">
+                        <div class="form-group row">
                             <label class="col-md-5 label-control has-question" for="level">Writer level</label>
                             <div class="col-md-7">
                                 <select class="form-control" id="level">
@@ -96,7 +96,7 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="form-group row last">
+                        <div class="form-group row">
                             <label class="col-md-5 label-control" for="spacing">Spacing</label>
                             <div class="col-md-7">
                                 <select class="form-control" id="spacing">
@@ -105,7 +105,7 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="form-group row last">
+                        <div class="form-group row">
                             <label class="col-md-5 label-control" for="currency">Currency</label>
                             <div class="col-md-7">
                                 <select class="form-control" id="currency">
@@ -114,13 +114,13 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="form-group row last">
+                        <div class="form-group row">
                             <label class="col-md-5 label-control" for="cost">Cost per page</label>
                             <div class="col-md-7 text-left">
                                 <span id="cost">40.99 USD</span>
                             </div>
                         </div>
-                        <div class="form-group row last">
+                        <div class="form-group row">
                             <label class="col-md-5 label-control has-question" for="number">Number of pages</label>
                             <div class="col-md-7">
                                 <select class="form-control" id="number">
@@ -129,7 +129,7 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="form-group row last text-left">
+                        <div class="form-group row text-left">
                             <label class="col-md-5 label-control has-question" for="summary">1-page summary of your
                                 paper</label>
                             <div class="col-md-7 summary">
@@ -137,19 +137,19 @@
                             </div>
                         </div>
                     </div>
-                    <div class="form-group row last text-left">
+                    <div class="form-group row text-left">
                         <label class="col-md-5 label-control has-question" for="draft">Draft of your paper</label>
                         <div class="col-md-7 summary">
                             <input type="checkbox" checked="checked" id="draft" class="form-check-inline">20.50 USD
                         </div>
                     </div>
-                    <div class="form-group row last text-left">
+                    <div class="form-group row text-left">
                         <label class="col-md-5 label-control has-question" for="extended">Extended revision</label>
                         <div class="col-md-7 summary">
                             <input type="checkbox" id="extended" class="form-check-inline">12.30 USD
                         </div>
                     </div>
-                    <div class="form-group row last">
+                    <div class="form-group row">
                         <label class="col-md-5 label-control has-question" for="style">Style</label>
                         <div class="col-md-7">
                             <select class="form-control" id="style">
@@ -159,18 +159,108 @@
                         </div>
                     </div>
                     <div class="form-group row last">
-                        <label class="col-md-5 label-control has-question" for="sources">Number of sources / references</label>
+                        <label class="col-md-5 label-control has-question" for="sources">Number of sources /
+                            references</label>
                         <div class="col-md-7">
                             <input type="text" id="sources" class="form-control">
                         </div>
                     </div>
+                    <div class="form-group row last text-left">
+                        <label class="col-md-5 label-control has-question" for="language">Preferred language
+                            style</label>
+                        <div class="col-md-7 writers">
+                            <input type="radio" id="language" class="form-check-inline">US Writers
+                            <input type="radio" id="writer" class="form-check-inline">UK writer (+5% to the order total)
+                        </div>
+                    </div>
+                    <div class="form-group row last text-left">
+                        <label class="col-md-5 label-control has-question" for="form-control">Your paper
+                            instructions </label>
+                        <div class="col-7">
+                            <textarea class="message form-control" rows="5" id="form-control"></textarea>
+                            <p class="provide">Please, provide detailed descriptions of your paper. The more details you
+                                give<br/>
+                                us, the easier it will be for us to write the exact paper you desire.</p>
+                        </div>
+                    </div>
+                    <div class="form-group row last text-left">
+                        <label class="col-md-5 label-control" for="file">Attachment</label>
+                        <div class="col-7">
+                            <input type="file" id="file" class="custom-file-input d-none">
+                            <button class="browse">Browse...</button>
+                        </div>
+                    </div>
 
-                </form>
-            </div>
-
+                    <div class="form-group row last text-left">
+                        <label class="col-md-5 label-control" for="draft"></label>
+                        <div class="col-md-7 writers">
+                            <input type="checkbox" checked="checked" id="drafts" class="form-check-inline"> I agree to
+                            receive phone calls from you at night in case of emergency
+                        </div>
+                    </div>
+                    <div class="form-group row last text-left">
+                        <label class="col-md-5 label-control" for="draft"></label>
+                        <div class="col-md-7 writers">
+                            <input type="checkbox" checked="checked" class="form-check-inline"> Email me
+                            about custom writing service and other product related updates
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-5 label-control" for="discount">Discount code</label>
+                        <div class="col-md-7">
+                            <input type="text" id="discount" class="form-control">
+                            <button class="browse">Apply discount</button>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-5 label-control" for="projectinput33">Preferred writer's ID</label>
+                        <div class="col-md-7">
+                            <input type="text" id="projectinput33" class="form-control invalid">
+                            <span class="invalid"></span>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-5 label-control" for="add"></label>
+                        <div class="col-md-7">
+                            <button class="browse" id="add"><img src="img/capa.png"/> Add writer</button>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-11 offset-1 label-control text-left" for="add">
+                            <p class="order_will">If your order will be written by a preferred writer you will be
+                                charged additional +15%. This additional</p>
+                            <p class="order_will">payment will go directly to the writer.
+                                It will ensure the highest priority of your order among others.</p>
+                        </label>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-11 offset-1 label-control text-left" for="add">
+                            <p class="order_will">Disclaimer: the service provided is meant to assist you by providing a
+                                guideline. The product provided</p>
+                            <p class="order_will">is intended to be used for research or study purposes.</p>
+                        </label>
+                    </div>
+                    <div class="form-group row text-left">
+                        <div class="col-md-5 label-control terms">
+                            <a href="terms.html" class="terms">Terms and Conditions</a><br/>2
+                            <a href="privacy.html">Privacy policy</a> and the <a href="delivery.html">Delivery
+                            Policy</a>
+                        </div>
+                        <div class="col-md-7 accept">
+                            <input type="checkbox" id="accept" class="form-check-inline">I accept
+                        </div>
+                    </div>
+                </div>
+                <div class="informationPersonal form-section">
+                    <div class="form-body text-center">
+                        <span class="grand ">Grand total price:</span><span class="total_price"> 40.99 USD</span>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <button class="btn-order-custom-paper text-center">Order now</button>
+                </div>
+            </form>
         </div>
-
+        //= right.html
     </div>
 </div>
-
-

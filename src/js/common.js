@@ -1,7 +1,3 @@
-$('#accordionFaq').on('shown.bs.collapse', function () {
-    $(this).find('h5').removeClass('open');
-    $(this).find('.collapse.show').closest('.card').find('h5').addClass('open');
-});
 var initBrowseButton = function () {
     var browseButton = document.querySelector('.browse');
     if (!browseButton) {

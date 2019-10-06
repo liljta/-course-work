@@ -62,6 +62,17 @@ p{
   @include font (100, $font-regular, 30px, #9824da);
   text-align: center;
 }
+
+.strip{
+  box-shadow: 0 5px 5px rgba(225, 225, 225, 0.75);
+  background-color: #ffffff;
+}
+
+.fields{
+  padding-top: 105px;
+  margin-bottom: 55px;
+}
+
 .box-shadow{
   box-shadow: 2px 3px 8px 0 rgba(185,185,185,0.75);
   width: 336px;
@@ -202,6 +213,7 @@ div.cal-com-share div {
   margin: 20px 0;
 }
 
+
 .choose{
   @include font(700, $font-regular, 30px, #5175e7);
   text-transform: uppercase;
@@ -269,11 +281,29 @@ li.page-item{
   box-shadow: 2px 4px 5px 0px rgba(164,164,164,0.75);
   background-color: #ffffff;
   border: 1.0px solid #dadada;
+  border-radius: 10px;
+  margin-right: 10px;
 }
 
 a.page-link{
-  @include font(400, $font-myriad, 20px, #2c3248);
+  @include font(400, $font-myriad, 14px, #535353);
+  background-color: transparent;
+  border: none;
+  line-height: 18px;
+  margin: 3px 3px;
 }
+
+a.page-link.active{
+  text-decoration: underline;
+  text-decoration-color: #dadada;
+}
+
+a.page-link:hover{
+  @include font(400, $font-myriad, 20px, #2c3248);
+  background-color: transparent;
+  border: none;
+}
+
 p.since_buyi{
   @include font(300, $font-regular, 18px, #2c3248);
 }
@@ -315,8 +345,11 @@ th.prices{
   @include font(400, $font-regular, 30px, #4b434f)
 }
 
-th.prices .nav-link.active{
-  @include font(600, $font-regular, 20px, #4b434f)
+th.prices .nav-link {
+  @include font(600, $font-regular, 20px, #4b434f);
+  &.active {
+    color: #b85eec;
+  }
 }
 
 li.divider {
@@ -646,7 +679,7 @@ label.has-question::after {
 }
 
 .form-group label {
-  text-align: right;
+  ext-align: right;
 }
 
 .form-group.row:nth-child(even) {
@@ -745,3 +778,67 @@ ul.order-details li:first-child {
    @include font(400, $font-regular, 18px, #2c3248);
    line-height: 40px;
  }
+
+#section1 {
+  padding-top: 80px; }
+@media only screen and (max-width: 600px) {
+  #section1 {
+    padding-top: 130px;
+    word-break: break-word; } }
+
+#section1 .row:nth-child(-n+2) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap; }
+
+#section1 .row:nth-child(-n+2) .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+#section1 .col .mycard {
+  box-shadow: 4px 2px 8px rgba(185, 185, 185, 0.75);
+  margin: 10px;
+  flex: 1; }
+
+#section1 .mycard p {
+  border-left: 3px solid rgba(137, 137, 137, 0.2);
+  line-height: 1;
+  margin: 15px 0 10px 90px;
+  padding-left: 30px;
+  @include font(400, $font-regular,25px,#171717);
+}
+
+
+#section1 p span {
+  font-weight: 300;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 18px;
+  color: #171717; }
+
+#section1 .top-text {
+  text-align: justify;
+  font-weight: 300;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 15px;
+  color: #19152d; }
+
+#section2 .row .col:first-child {
+  box-shadow: 4px 2px 8px rgba(185, 185, 185, 0.75);
+  background: url("../img/star.svg") no-repeat center 100%, linear-gradient(to top, #5075e7 0%, #8cadf4 100%); }
+
+#section2 h1.text-smoll {
+  font-weight: 400;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 59px;
+  color: #ffffff; }
+
+#section2 p {
+  font-weight: 300;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 33px;
+  text-align: justify; }

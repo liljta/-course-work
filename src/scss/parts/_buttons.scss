@@ -44,25 +44,39 @@
   background-color: #ffffff;
   border: 1.0px solid;
   @include font(300, $font-regular, 18px);
-  padding: 2px 25px;
+  padding: 2px 20px;
   border-radius: 12px;
   margin-right: 15px;
+  margin-bottom: 10px;
+  &:hover {
+    color: #FFFFFF;
+  }
 }
 
 .btn-oval-blue {
   border-color:  #567be8;
   color: #567be8;
+  &:hover {
+    background-color: #567be8;
+  }
 }
 
 .btn-oval-violet{
   border-color: #b85dec;
   color: #b85dec;
+  &:hover {
+    background-color: #b85dec;
+  }
 }
 
 .btn-oval-pink{
   border-color: #ff4475;
   color: #ff4475;
+  &:hover {
+    background-color: #ff4475;
+  }
 }
+
 
 .btn-buy-now{
   background-color: #87a8f3;

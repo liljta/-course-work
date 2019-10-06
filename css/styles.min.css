@@ -70,21 +70,30 @@
   font-family: "Proxima Nova", sans-serif;
   font-size: 18px;
   color: #171717;
-  padding: 2px 25px;
+  padding: 2px 20px;
   border-radius: 12px;
-  margin-right: 15px; }
+  margin-right: 15px;
+  margin-bottom: 10px; }
+  .btn-oval-comnon:hover {
+    color: #FFFFFF; }
 
 .btn-oval-blue {
   border-color: #567be8;
   color: #567be8; }
+  .btn-oval-blue:hover {
+    background-color: #567be8; }
 
 .btn-oval-violet {
   border-color: #b85dec;
   color: #b85dec; }
+  .btn-oval-violet:hover {
+    background-color: #b85dec; }
 
 .btn-oval-pink {
   border-color: #ff4475;
   color: #ff4475; }
+  .btn-oval-pink:hover {
+    background-color: #ff4475; }
 
 .btn-buy-now {
   background-color: #87a8f3;
@@ -160,6 +169,14 @@ p {
   font-size: 30px;
   color: #9824da;
   text-align: center; }
+
+.strip {
+  box-shadow: 0 5px 5px rgba(225, 225, 225, 0.75);
+  background-color: #ffffff; }
+
+.fields {
+  padding-top: 105px;
+  margin-bottom: 55px; }
 
 .box-shadow {
   box-shadow: 2px 3px 8px 0 rgba(185, 185, 185, 0.75);
@@ -386,13 +403,31 @@ p.post {
 li.page-item {
   box-shadow: 2px 4px 5px 0px rgba(164, 164, 164, 0.75);
   background-color: #ffffff;
-  border: 1.0px solid #dadada; }
+  border: 1.0px solid #dadada;
+  border-radius: 10px;
+  margin-right: 10px; }
 
 a.page-link {
   font-weight: 400;
   font-family: "Myriad", sans-serif;
+  font-size: 14px;
+  color: #535353;
+  background-color: transparent;
+  border: none;
+  line-height: 18px;
+  margin: 3px 3px; }
+
+a.page-link.active {
+  text-decoration: underline;
+  text-decoration-color: #dadada; }
+
+a.page-link:hover {
+  font-weight: 400;
+  font-family: "Myriad", sans-serif;
   font-size: 20px;
-  color: #2c3248; }
+  color: #2c3248;
+  background-color: transparent;
+  border: none; }
 
 p.since_buyi {
   font-weight: 300;
@@ -446,11 +481,13 @@ th.prices {
   font-size: 30px;
   color: #4b434f; }
 
-th.prices .nav-link.active {
+th.prices .nav-link {
   font-weight: 600;
   font-family: "Proxima Nova", sans-serif;
   font-size: 20px;
   color: #4b434f; }
+  th.prices .nav-link.active {
+    color: #b85eec; }
 
 li.divider {
   position: relative; }
@@ -803,7 +840,7 @@ label.has-question::after {
   padding: 1rem; }
 
 .form-group label {
-  text-align: right; }
+  ext-align: right; }
 
 .form-group.row:nth-child(even) {
   background-color: #fbfbfb; }
@@ -908,5 +945,71 @@ td span.extend {
   font-size: 18px;
   color: #2c3248;
   line-height: 40px; }
+
+#section1 {
+  padding-top: 80px; }
+
+@media only screen and (max-width: 600px) {
+  #section1 {
+    padding-top: 130px;
+    word-break: break-word; } }
+
+#section1 .row:nth-child(-n+2) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap; }
+
+#section1 .row:nth-child(-n+2) .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+#section1 .col .mycard {
+  box-shadow: 4px 2px 8px rgba(185, 185, 185, 0.75);
+  margin: 10px;
+  flex: 1; }
+
+#section1 .mycard p {
+  border-left: 3px solid rgba(137, 137, 137, 0.2);
+  line-height: 1;
+  margin: 15px 0 10px 90px;
+  padding-left: 30px;
+  font-weight: 400;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 25px;
+  color: #171717; }
+
+#section1 p span {
+  font-weight: 300;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 18px;
+  color: #171717; }
+
+#section1 .top-text {
+  text-align: justify;
+  font-weight: 300;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 15px;
+  color: #19152d; }
+
+#section2 .row .col:first-child {
+  box-shadow: 4px 2px 8px rgba(185, 185, 185, 0.75);
+  background: url("../img/star.svg") no-repeat center 100%, linear-gradient(to top, #5075e7 0%, #8cadf4 100%); }
+
+#section2 h1.text-smoll {
+  font-weight: 400;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 59px;
+  color: #ffffff; }
+
+#section2 p {
+  font-weight: 300;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 33px;
+  text-align: justify; }
 
 
